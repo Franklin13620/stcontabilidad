@@ -1,11 +1,12 @@
 <?php
 
 define('FS_DB_TYPE', 'MYSQL'); /// MYSQL o POSTGRESQL
-define('FS_DB_HOST', 'localhost');
-define('FS_DB_PORT', '3306'); /// MYSQL -> 3306, POSTGRESQL -> 5432
-define('FS_DB_NAME', 'contabilidad');
-define('FS_DB_USER', 'franklin13620'); /// MYSQL -> root, POSTGRESQL -> postgres
-define('FS_DB_PASS', '072517');
+define('FS_DB_HOST', 'ec2-174-129-242-183.compute-1.amazonaws.com');
+define('FS_DB_PORT', '5432'); /// MYSQL -> 3306, POSTGRESQL -> 5432
+define('FS_DB_NAME', 'd161psmgiu7jqm');
+define('FS_DB_USER', '
+membtwcvbqndvx'); /// MYSQL -> root, POSTGRESQL -> postgres
+define('FS_DB_PASS', '89e32f5b5d490423efb234e59f460cb096ec0f16f6d168a791c15b38edbaa0a1');
 
 /*
  * Un directorio de nombre aleatorio para mejorar la seguridad del directorio temporal.
