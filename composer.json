@@ -1,0 +1,19 @@
+{
+    "name": "FacturaScripts/FacturaScripts_2015",
+    "description": "Software de facturación y contabilidad para pequenas y mediana emprezas, fácil, libre y con actualizaciones constantes.",
+    "authors": [
+        {
+            "name": "Franklin Geovany Torres",
+            "email": "franklintorres13620@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "components/jquery": "dev-master",
+        "components/font-awesome": "dev-master",
+        "mk-j/php_xlsxwriter": "dev-master",
+        "twbs/bootstrap": "dev-master",
+        "thomaspark/bootswatch": "v4.x-dev",
+        "makeusabrew/bootbox": "dev-master"
+    }
+}
